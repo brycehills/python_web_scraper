@@ -20,7 +20,7 @@ page_soup = soup(page_html, "html.parser")
 # grab header 1
 page_soup.h1
 
-#grab body
+#grab body using html
 page_soup.body
 
 # grab all items containing specified tag
